@@ -1,5 +1,13 @@
 # @emotion/react
 
+## 11.7.3
+
+### Patch Changes
+
+- [#2609](https://github.com/emotion-js/emotion/pull/2609) [`242f7d8c`](https://github.com/emotion-js/emotion/commit/242f7d8c9f3ddbba2a69664bcc0fa22501df849f) Thanks [@Andarist](https://github.com/Andarist)! - Added `@emotion/babel-plugin` as a dependency - this is an actual dependency of the `@emotion/react/macro` entrypoint and it has to be explicitly declared to fix compatibility with strict package managers.
+
+* [#2615](https://github.com/emotion-js/emotion/pull/2615) [`3d672acd`](https://github.com/emotion-js/emotion/commit/3d672acd4d379f5861012d6e6d38feadd212966a) Thanks [@srmagura](https://github.com/srmagura)! - Fix an edge case where runtime label extraction in class components led to invalid class names in Firefox. This only affected the development build of Emotion.
+
 ## 11.7.1
 
 ### Patch Changes
